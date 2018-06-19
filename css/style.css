@@ -209,3 +209,35 @@ h2 {
   display: table;
   clear: both;
 }
+
+/* what i offer */
+.my_service {
+  background-color: #9e9696;
+  padding: 100px 0;
+}
+
+.service-content {
+  float: left;
+  width: 33.333333%;
+  padding: 0 15px;
+}
+
+.service-content i {
+  font-size: 30px;
+  line-height: 46px;
+}
+
+.service-content h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.service-content p {
+  color: #110e0e;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
