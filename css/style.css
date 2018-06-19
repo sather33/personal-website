@@ -40,6 +40,9 @@ a, a:hover, a:focus {
   position: relative;
 }
 
+section {
+  padding: 100px 0;
+}
 
 /* header */
 
@@ -126,9 +129,6 @@ header {
 }
 
 /* about me */
-.about_me {
-  padding: 100px 0;
-}
 h2 {
   margin-bottom: 75px;
   text-align: center;
@@ -213,7 +213,6 @@ h2 {
 /* what i offer */
 .my_service {
   background-color: #9e9696;
-  padding: 100px 0;
 }
 
 .service-content {
@@ -240,4 +239,51 @@ h2 {
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
+}
+
+.col-horizontal {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #767676;  
+}
+
+.col-horizontal:last-child {
+  border-bottom: 0;
+}
+
+h3.resume-subtitle {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+
+.col-horizontal .col-item {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.experience-year {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.resume-detail h4 {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.resume-detail h6 {
+  font-size: 12px;
+  margin-bottom: 9px;
+  text-transform: capitalize;
+}
+
+.resume-detail p {
+  line-height: 22px;
 }
