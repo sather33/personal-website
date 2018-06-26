@@ -324,3 +324,39 @@ h3.resume-subtitle {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
+/* last work */
+.works {
+  background-color: #f7f7f7;
+}
+
+.col-work {
+  float: left;
+  width: 33.3333333333%;
+  padding: 0 15px;
+  margin-bottom: 14px;
+  /* border: 1px solid red; */
+}
+
+.col-work a {
+  /* border: 1px solid green; */
+  display: block;
+  margin-bottom: 14px;
+  position: relative;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  transition: .2s linear;
+  top: 0;
+  left: 0;
+}
+
+.col-work a:hover {
+  box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+.col-work a img {
+  height: 200px;
+}
